@@ -10,3 +10,7 @@ resources:
 images:
   - name: gcr.io/ml-pipeline/metadata-envoy
     newTag: 1.7.0
+    newName: deep-arena-store:5000/ml-pipeline/metadata-envoy
+  - name: gcr.io/tfx-oss-public/ml_metadata_store_server
+    newTag: 1.0.0
+    newName: deep-arena-store:5000/ml-pipeline/tfx-oss-public/ml_metadata_store_server

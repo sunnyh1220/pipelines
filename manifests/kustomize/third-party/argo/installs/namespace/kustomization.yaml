@@ -10,6 +10,11 @@ bases:
 - ../../base
 - ../../upstream/manifests/namespace-install/workflow-controller-rbac
 
+images:
+  - name: gcr.io/ml-pipeline/workflow-controller
+    newTag: v3.1.6-patch-license-compliance
+    newName: deep-arena-store:5000/ml-pipeline/workflow-controller
+
 patchesJson6902:
 - target:
     version: v1

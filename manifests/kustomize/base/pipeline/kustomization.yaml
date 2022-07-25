@@ -38,13 +38,19 @@ resources:
 images:
   - name: gcr.io/ml-pipeline/api-server
     newTag: 1.7.0
+    newName: deep-arena-store:5000/ml-pipeline/api-server
   - name: gcr.io/ml-pipeline/persistenceagent
     newTag: 1.7.0
+    newName: deep-arena-store:5000/ml-pipeline/persistenceagent
   - name: gcr.io/ml-pipeline/scheduledworkflow
     newTag: 1.7.0
+    newName: deep-arena-store:5000/ml-pipeline/scheduledworkflow
   - name: gcr.io/ml-pipeline/frontend
     newTag: 1.7.0
+    newName: deep-arena-store:5000/ml-pipeline/frontend
   - name: gcr.io/ml-pipeline/viewer-crd-controller
     newTag: 1.7.0
+    newName: deep-arena-store:5000/ml-pipeline/viewer-crd-controller
   - name: gcr.io/ml-pipeline/visualization-server
     newTag: 1.7.0
+    newName: deep-arena-store:5000/ml-pipeline/visualization-server
