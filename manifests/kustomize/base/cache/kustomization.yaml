@@ -9,5 +9,5 @@ resources:
 commonLabels:
   app: cache-server
 images:
-  - name: gcr.io/ml-pipeline/cache-server
+  - name: deep-arena-store:5000/ml-pipeline/cache-server
     newTag: 1.7.0

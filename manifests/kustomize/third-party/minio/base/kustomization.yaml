@@ -6,3 +6,8 @@ resources:
 - minio-pvc.yaml
 - minio-service.yaml
 - mlpipeline-minio-artifact-secret.yaml
+
+images:
+  - name: gcr.io/ml-pipeline/minio
+    newTag: RELEASE.2019-08-14T20-37-41Z-license-compliance
+    newName: deep-arena-store:5000/ml-pipeline/minio

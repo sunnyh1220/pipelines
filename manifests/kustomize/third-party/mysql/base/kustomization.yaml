@@ -6,3 +6,8 @@ resources:
 - mysql-pv-claim.yaml
 - mysql-service.yaml
 - mysql-serviceaccount.yaml
+
+images:
+  - name: gcr.io/ml-pipeline/mysql
+    newTag: "5.7"
+    newName: deep-arena-store:5000/ml-pipeline/mysql
